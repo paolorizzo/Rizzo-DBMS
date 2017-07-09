@@ -1,0 +1,7 @@
+ENCRYPT 1
+PERSISTENCE 1
+PORT 8888
+PATH_FILE_DB ./data/database.db
+ENCRYPTION_KEY defaultkey123456
+INITIALIZATION_VECTOR initializationve
+PASSWORD password
