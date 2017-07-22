@@ -40,7 +40,7 @@ E' possibile utilizzare o no la cifratura dei messaggi al momento della connessi
     $port = 8888;
     $password = "paolo";
     $flag_encryption = 0; //verificare disattivazione anche su server
-    $conn->query($address, $port, $password, $flag_encryption) or die($conn->error);
+    $conn->connect($address, $port, $password, $flag_encryption) or die($conn->error);
 
 
 <b>Aggiunta elemento</b>
